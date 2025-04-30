@@ -240,7 +240,15 @@
           padding: 2rem 1.5rem;
           text-align: center;
         }
-
+        .microtcp-video {
+          width: 90%;
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+        .microtcp-video {
+          width: 100% !important;
+        }
         .project1 p,
         .project2 p,
         .project3 p {
@@ -376,7 +384,7 @@
         <div class="project1">
           <h3>MICRO-TCP</h3>
           <div class="video-center">
-            <video autoplay muted loop width="70%" height="70%">
+            <video autoplay muted loop class="microtcp-video">
               <source src="assets/tcp_vid.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -396,12 +404,14 @@
           </p>
           <a href="#">View on GitHub</a>
         </div>
-        <div class="project2">
+        <div class="project1">
           <h3>FPS on Unity</h3>
-          <video autoplay muted loop width="10%" height="10%">
+          <div class="video-center">
+          <video autoplay muted loop  class="microtcp-video">
             <source src="assets/fps.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+        </div>
           <p>
             <strong>In just three days</strong>, we developed a
             <strong>first-person shooter (FPS) in Unity</strong> for a
@@ -449,10 +459,16 @@
       <section id="contact">
         <h2>Contact</h2>
         <div class="contact-row">
-            Gmail: <a href="mailto:gageorgeapo@gmail.com">gageorgeapo@gmail.com</a>
-          Git Hub: <a href="https://github.com/apostolak1s" target="_blank"
-            >apostolak1s</a
-          >
+          <div>
+            <span>Gmail:</span>
+            <a href="mailto:gageorgeapo@gmail.com">gageorgeapo@gmail.com</a>
+          </div>
+          <div>
+            <span>GitHub:</span>
+            <a href="https://github.com/apostolak1s" target="_blank"
+              >apostolak1s</a
+            >
+          </div>
         </div>
       </section>
     </div>
